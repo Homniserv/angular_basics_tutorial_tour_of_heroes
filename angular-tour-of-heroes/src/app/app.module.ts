@@ -22,7 +22,7 @@ import { HeroService } from './hero.service';//moi ../hero.service
     BrowserModule,
       FormsModule
   ],
-  providers: [ HeroService ],
+  providers: [ HeroService, MessageService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
