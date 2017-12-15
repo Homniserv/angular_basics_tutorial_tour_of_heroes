@@ -13,14 +13,10 @@ import { HeroService } from '../hero.service';
 
 
 export class HeroesComponent implements OnInit {
-    hero: Hero = {
-	id:1,
-	name:'Windsto'
-    };
+   
 
 
-
-    // heroes = HEROES;
+ 
     heroes: Hero[];
 
     constructor(private heroService: HeroService) { }
@@ -31,12 +27,6 @@ export class HeroesComponent implements OnInit {
 
 
 
-
-
-    selectedHero: Hero;
-    onSelect(hero: Hero): void {
-	this.selectedHero = hero;
-    }
 
 
     getHeroes(): void {
