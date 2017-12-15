@@ -43,7 +43,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 HttpClientInMemoryWebApiModule.forRoot(
   InMemoryDataService, { dataEncapsulation: false }
 				       ),
-    InMemoryWebApiModule
+    
   ],
   providers: [ HeroService, MessageService ],
   bootstrap: [AppComponent]
