@@ -42,7 +42,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 // Remove it when a real server is ready to receive requests.
 HttpClientInMemoryWebApiModule.forRoot(
   InMemoryDataService, { dataEncapsulation: false }
-)
+				       ),
     InMemoryWebApiModule
   ],
   providers: [ HeroService, MessageService ],
