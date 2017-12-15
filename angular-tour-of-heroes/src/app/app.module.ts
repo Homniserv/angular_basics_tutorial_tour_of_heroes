@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+//TODO module vs component
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 // import { HeroComponent } from './hero/hero.component';
